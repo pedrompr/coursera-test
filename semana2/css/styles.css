@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Arial', serif;
+}
+
+h1 {
+  font-family: 'Comics Sans', cursive;
+  text-align: center;
+}
+
+.title {
+  float: right;
+  clear: left;
+  color: black;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  font-size: 150%;
+}
+
+p {
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+#pizza {
+  background-color: pink;
+}
+
+#bife {
+  background-color: red;
+}
+
+#sushi {
+  background-color: yellow;
+}
+
+section {
+  float: left;
+}
+
+.box {
+  margin: 10px;
+  background-color: lightgrey;
+  color: black;
+  border: 2px solid black;
+  float: left;
+  font-weight: bold;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .col-desktop-3 {
+    width: 33.33%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tablet-12 {
+    width: 100%;
+  }
+  .col-tablet-6 {
+    width: 50%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .col-mobile-12 {
+    width: 100%;
+  }
+}
